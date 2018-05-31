@@ -1,0 +1,42 @@
+{
+  "name": "currency-exchange",
+  "version": "1.0.0",
+  "description": "Get currency exchange rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivekimsit/exchange-rate.git"
+  },
+  "keywords": [
+    "finance",
+    "currency",
+    "exchange",
+    "rate",
+    "api"
+  ],
+  "author": "vivekimsit@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivekimsit/exchange-rate/issues"
+  },
+  "homepage": "https://github.com/vivekimsit/exchange-rate#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.21.1"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "got": "^8.3.1",
+    "joi": "^13.3.0",
+    "xmldoc": "^1.1.0"
+  },
+  "xo": {
+    "space": true
+  }
+}
